@@ -2,7 +2,7 @@ import requests
 import csv
 import datetime
 
-url = "https://api.openweathermap.org/data/3.0/onecall?lat=1.2350&lon=54.5742&exclude=hourly,minutely,alerts&appid=8300f423a4380bc2e5512b4a6c8db417"
+url = "https://api.openweathermap.org/data/3.0/onecall?lat=1.2350&lon=54.5742&exclude=hourly,minutely,alerts&appid"
 
 params = {
     "latitude":1.2350,
